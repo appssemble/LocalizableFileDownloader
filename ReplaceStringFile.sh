@@ -1,5 +1,4 @@
-#Constants
-
+# Constants
 STRINGS_FILE_URL='https://www.cs.indiana.edu/l/www/classes/infosys/Lect/testplan.text'
 DOWNLOAD_FILE_NAME='DOWNLOADED'
 
