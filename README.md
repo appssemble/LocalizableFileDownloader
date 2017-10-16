@@ -4,13 +4,19 @@ A script that replaces your Localizable.string file in iOS with a custom one fro
 
 ## Usage
 
+```
 Save the script somewhere in the project (I used '${PROJECT_DIR}/${PROJECT_NAME}/Scripts/')
+```
 
-> Replace the STRINGS_FILE_URL='https://www.cs.indiana.edu/l/www/classes/infosys/Lect/testplan.text' value with the link to your online strings file.
+### Replace the constants with your custom ones
 
-> Replace the DOWNLOADED_FILE_URL="${PROJECT_DIR}/${PROJECT_NAME}/Scripts/" with a path to the folder where you want to download the .strings file
+```
+1.Replace the STRINGS_FILE_URL='https://www.cs.indiana.edu/l/www/classes/infosys/Lect/testplan.text' value with the link to your online strings file.
 
-> Replace the LOCALIZABLE_FILE_PATH="${PROJECT_DIR}/${PROJECT_NAME}/Resources/Localizable.strings" with the path to your Localizable.strings file
+2.Replace the DOWNLOADED_FILE_URL="${PROJECT_DIR}/${PROJECT_NAME}/Scripts/" with a path to the folder where you want to download the .strings file
+
+3.Replace the LOCALIZABLE_FILE_PATH="${PROJECT_DIR}/${PROJECT_NAME}/Resources/Localizable.strings" with the path to your Localizable.strings file
+```
 
 ### Add the script to the build phases:
 ```
@@ -22,4 +28,4 @@ Save the script somewhere in the project (I used '${PROJECT_DIR}/${PROJECT_NAME}
 6.Drag the newly created build phase at the top of the list before "Compile sources"
 ```
 
-Run 🍺
+### Run 🍺
